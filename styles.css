@@ -1,0 +1,517 @@
+/* header */
+
+header {
+    background-color: #e0d4cf;
+    size: 140px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.img-logo {
+    width: 35%;
+}
+
+img, svg {
+    width: 100%;
+    border-radius: 2%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    margin-right: 60px;
+    color: black;
+    font-size: 20px;
+    font-family: "Julius Sans One", sans-serif;
+}
+
+.btn-agendamentos {
+    display: block;
+    border: none;
+    background: #ff000000;
+}
+
+.btn-agendamentos a {
+    border-style: none;
+    border-radius: 60px;
+    text-decoration: none;
+    padding: 8px 30px;
+    color: white;
+    font-family: "Julius Sans One", sans-serif;
+    background-color: #D76CA4;
+    font-size: 25px;
+} 
+
+/* body */
+/* HOME */
+#home {
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+    background: transparent;
+    background-image: linear-gradient(rgba(240, 227, 227, 0.114), #fafafa), url('imagens/imagem-fundo-2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.introducao-fran {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10%;
+}
+
+.introducao-fran h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.introducao-fran h2 {
+    padding-top: 10%;
+    font-size: 45px;
+    text-align: left;
+    text-align: center;
+}
+
+.introducao-fran h3 {
+    padding-top: 2%;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* SOBRE */
+#sobre {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 80vh;
+    background-color: #FAFAFA;
+}
+
+.img-fran {
+    width: 60%;
+}
+
+.sobre-mim h1 {
+    font-family: "Julius Sans One", sans-serif;
+    float: right;
+    text-decoration: underline #D76CA4; 
+    text-underline-offset: 10px;
+    font-size: 35px;
+}
+
+.sobre-mim p {
+    padding-top: 5%;
+    float: right;
+    text-align: right;
+    font-family: "Quicksand", sans-serif;
+    color: #836F81;
+}
+
+/* SERVIÇOS */
+#servicos {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100vh;
+    background-color: #E0D4CF;
+    position: relative;
+    z-index: 2;
+}
+
+.ok {
+    background-color: #FAFAFA;
+    margin-top: 5%;
+    padding: 70px;
+    border-radius: 2%;
+    display: block;
+}
+
+.terapia-online h1 {
+    font-family: "Julius Sans One", sans-serif;
+    float: left;
+    text-decoration: underline #D76CA4; 
+    text-underline-offset: 10px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.white-overlay {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    z-index: -1;
+}
+
+.terapia-presencial {
+    text-align: center;
+}
+
+.terapia-border:first-child {
+    border-right: 1px solid black;
+    border-width: 3px;
+    height: 50vh;
+    border-color: #E0D4CF; 
+}
+
+.img-terapia-presencial {
+    max-width: 30%;
+}
+
+.terapia-presencial h2 {
+    padding-top: 2%;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 25px;
+    color: #836F81;
+    text-align: center;
+}
+
+.terapia-presencial p {
+    margin-right: 20px;
+    justify-content: center;
+    padding-top: 2%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: #836F81;
+    text-align: center;
+}
+
+/* TERAPIAS */
+#terapias {
+    background-color: #D76CA4;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 65vh;
+    position: relative;
+}
+
+.titulo-terapias h1 {
+    font-size: 35px;
+    font-family: "Julius Sans One", sans-serif;
+    float: left;
+    text-decoration: underline #E0D4CF; 
+    text-underline-offset: 10px;
+    margin-bottom: 50px;
+    color: white
+}
+
+.psicoterapia p {
+    margin-top: 10px;
+    font-family: "Quicksand", sans-serif;
+    float: left;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+.psico-form {
+    margin-top: 10px;
+}
+
+.psico-summary {
+    transition: max-height 0.2s ease-out;
+}
+
+.psico-detalhes {
+    background-color: #E0D4CF;
+    padding: 10px;
+    margin-bottom: 30px;
+    animation-timing-function: linear;
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+}
+
+.psico-detalhes p {
+    text-align: justify;
+    color:#545454;
+}
+
+.psico-summary {
+    list-style: none;
+    
+}
+
+.psico-summary h3 {
+    font-size: 25px;
+    font-family: "Julius Sans One", sans-serif;
+    color: #545454;
+}
+
+/* TERAPIAS CONTEÚDO */
+#terapias-cont {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #E0D4CF;
+    height: 100vh;
+    position: relative;
+}
+
+.conteudo-terapias1 p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    color: #836F81;
+    position: relative;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.conteudo-terapias p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: #836F81;
+    position: relative;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.img-terapia {
+    margin-top: 50px;
+}
+
+.exemplo-terapia {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: #836F81;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ÁREAS DE ATUAÇÃO */
+#area {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #D76CA4;
+    z-index: 2;
+    height: 210vh;
+}
+
+.fundo-area {
+    background-color: #FAFAFA;
+    border-radius: 2%;
+}
+
+.titulo-area h1 {
+    font-family: "Julius Sans One", sans-serif;
+    float: left;
+    text-decoration: underline #E0D4CF; 
+    text-underline-offset: 10px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    color: white;
+}
+
+.img-areas {
+    display: flex;
+    justify-content: center;
+}
+
+.img-areas img {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.cont-areas h1 {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 25px;
+    color: #836F81;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cont-areas p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: #836F81;
+    text-align: center;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.cont-areas2 h1 {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 25px;
+    color: #836F81;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cont-border:first-child {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-width: 3px;
+    height: 85vh;
+    border-color: #E0D4CF; 
+}
+
+.cont-bottomborder:first-child {
+    border-bottom: 1px solid black;
+    border-bottom-width: 0px;
+    border-width: 3px;
+    height: 85vh;
+    border-color: #E0D4CF; 
+
+}
+
+.cont-rightborder:first-child {
+    border-right: 1px solid black;
+    border-width: 3px;
+    height: 85vh;
+    border-color: #E0D4CF; 
+}
+
+.btn-area {
+    margin-top: 50px;
+    text-align: center;
+    border: none;
+    background: #ff000000;
+}
+
+.btn-area-style {
+    border-style: none;
+    background-color: #D76CA4;
+    font-size: 25px;
+} 
+
+.btn-area-style a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: "Julius Sans One", sans-serif;
+    background-color: #836F81;
+    border-radius: 20px;
+    padding: 8px 30px;
+}
+
+/* DÚVIDAS FREQUENTES */
+#duvidas {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #E0D4CF;
+    height: 100vh;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-duvidas h1 {
+    font-family: "Julius Sans One", sans-serif;
+    float: left;
+    text-decoration: underline #D76CA4; 
+    text-underline-offset: 10px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    color: #836F81;
+}
+
+.texto-duvidas p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: #836F81;
+    text-align: center;
+}
+
+.style-accordions {
+    padding-top: 2%;
+}
+
+.style {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 600px;
+}
+
+.accordion {
+    background-color: #D76CA4;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.accordion-header {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.accordion-header span {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.accordion-body {
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    height: 0;
+    transition: opacity .3s;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.accordion-body.active {
+    height: 100%;
+    opacity: 1;
+    padding: 5px 0px;
+}
+
+.arrow {
+    transition: transform .2s linear;
+}
+
+.accordion:has(.active) .arrow {
+    transform: rotate(180deg);
+}
+
+.seta {
+    color: white;
+}
+
+/* CONTATO */
+
+#contato {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #E0D4CF;
+    height: 100vh;
+}
+
+.title-contato h1 {
+    font-family: "Julius Sans One", sans-serif;
+    float: left;
+    text-decoration: underline #D76CA4; 
+    text-underline-offset: 10px;
+    font-size: 35px;
+    color: #836F81;
+}
+
+/* footer */
